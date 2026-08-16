@@ -1,0 +1,43 @@
+.mainList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainList .btnc {
+  cursor: pointer;
+  background-color: rgb(68, 138, 204);
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+.mainList .btnc:hover {
+  background-color: rgb(62, 97, 192);
+}
+
+.mainList .premium {
+  margin: 0.5rem auto 0 auto;
+  background: yellow;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: rgb(179, 10, 10);
+  font-weight: 600;
+  font-style: italic;
+  border: 0.5px solid rgb(231, 34, 34);
+}
+
+.mainList .premium:hover {
+  background: yellowgreen;
+}
+
+.list {
+  margin: 0.5rem auto;
+  width: 70%;
+}

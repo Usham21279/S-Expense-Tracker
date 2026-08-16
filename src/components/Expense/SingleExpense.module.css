@@ -1,0 +1,48 @@
+.listItem {
+  background: rgb(6, 6, 136);
+  color: white;
+  margin: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.listItem p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+span {
+  margin-left: 1rem;
+  color: rgb(231, 131, 131);
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+}
+
+.btn {
+  background: rgb(214, 99, 99);
+  color: white;
+  border-style: none;
+  width: 5rem;
+  right: 0px;
+  margin: 0 1rem;
+  border-radius: 1rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: rgb(165, 65, 65);
+}
